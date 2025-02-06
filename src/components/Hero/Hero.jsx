@@ -1,5 +1,5 @@
 import React from "react";
-import yellowCar from "../../assets/website/team.png";
+import yellowCar from "../../assets/website/hero_img.png";
 
 const Hero = () => {
   return (
@@ -11,7 +11,7 @@ const Hero = () => {
             <img
               src={yellowCar}
               alt=""
-              className="w-full sm:max-w-[280px] md:max-w-[430px]"
+              className="w-full sm:max-w-[280px] lg:rounded-full md:rounded-lg md:max-w-[430px]"
             />
             <div
               data-aos="slide-right"
