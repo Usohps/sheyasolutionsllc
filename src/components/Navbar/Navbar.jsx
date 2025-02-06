@@ -3,7 +3,7 @@ import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
 import Logo from "../../assets/website/Vector.svg";
 import DarkMode from "./DarkMode";
-
+import { redirectToWhatsApp } from "../../utils/whatsapp";
 export const MenuLinks = [
   {
     id: 1,
@@ -58,7 +58,12 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
-              <button className="primary-btn font-bold">Get in Touch</button>
+              <button
+                onClick={redirectToWhatsApp}
+                className="primary-btn font-bold"
+              >
+                Get in Touch
+              </button>
               <DarkMode />
             </ul>
           </nav>
