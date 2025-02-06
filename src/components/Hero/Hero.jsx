@@ -1,6 +1,6 @@
 import React from "react";
 import yellowCar from "../../assets/website/hero_img.png";
-
+import { redirectToWhatsApp } from "../../utils/whatsapp";
 const Hero = () => {
   return (
     <div className="dark:bg-gray-950 dark:text-white duration-300 ">
@@ -41,6 +41,7 @@ const Hero = () => {
               heights.
             </p>
             <button
+              onClick={redirectToWhatsApp}
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-offset="0"
