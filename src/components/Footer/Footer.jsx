@@ -1,6 +1,6 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
-
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { redirectToWhatsApp } from "../../utils/whatsapp";
 const FooterLinks = [
   {
     title: "About",
@@ -48,7 +48,7 @@ const ResourcesLinks = [
   },
   {
     title: "Subscribe TCJ",
-    link: "https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ?sub_confirmation=1",
+    link: "#",
   },
 ];
 const Footer = () => {
@@ -58,25 +58,41 @@ const Footer = () => {
         <div className=" grid md:grid-cols-3 py-5">
           {/* company Details */}
           <div className=" py-8 px-4 ">
-            <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
-              Digital Agency
+            <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 text-primary flex items-center gap-3">
+              Sheya Solutions LLC
             </h1>
             <p className="text-sm">
-              Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit consectetur adipisicing elit ipsum
-              dolor sit amet consectetur. adipisicing{" "}
+              We pride ourselves on delivering high-quality academic and
+              business research services that meet the diverse needs of our
+              global clientele.
             </p>
+            {/* <div
+              data-aos="fade-up"
+              data-aos-delay="900"
+              data-aos-offset="0"
+              className="text-center mt-4 sm:mt-8"
+            >
+              <button
+                onClick={redirectToWhatsApp}
+                className="primary-btn font-bold"
+              >
+                For more Enquires
+              </button>
+            </div> */}
             <br />
             {/* Social Handle */}
             <div className="flex items-center gap-4 mt-6">
-              <a href="#">
+              <a href="https://www.instagram.com/sheyasolutionsllc?igsh=ODI2NmE4dno1cjNx">
                 <FaInstagram className="text-2xl hover:text-primary duration-300" />
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/profile.php?id=61568394731616&mibextid=ZbWKwL">
                 <FaFacebook className="text-2xl hover:text-primary duration-300" />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/company/sheya-solutions-llc/">
                 <FaLinkedin className="text-2xl hover:text-primary duration-300" />
+              </a>
+              <a href="https://x.com/sheyasolutions?t=n7_Z5CJx4KKxQuhbZBxZnw&s=09">
+                <FaTwitter className="text-2xl hover:text-primary duration-300" />
               </a>
             </div>
           </div>
@@ -84,7 +100,7 @@ const Footer = () => {
           <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10 ">
             <div className="">
               <div className="py-8 px-4 ">
-                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
+                <h1 className="sm:text-xl text-primary text-xl font-bold sm:text-left text-justify mb-3">
                   Company
                 </h1>
                 <ul className={`flex flex-col gap-3`}>
@@ -101,7 +117,7 @@ const Footer = () => {
             </div>
             <div className="">
               <div className="py-8 px-4 ">
-                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
+                <h1 className="sm:text-xl text-primary text-xl font-bold sm:text-left text-justify mb-3">
                   Help
                 </h1>
                 <ul className="flex flex-col gap-3">
@@ -118,7 +134,7 @@ const Footer = () => {
             </div>
             <div className="">
               <div className="py-8 px-4 ">
-                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
+                <h1 className="sm:text-xl text-primary text-xl font-bold sm:text-left text-justify mb-3">
                   Resources
                 </h1>
                 <ul className="flex flex-col gap-3">

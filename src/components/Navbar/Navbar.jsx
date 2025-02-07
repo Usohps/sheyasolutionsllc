@@ -87,7 +87,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <ResponsiveMenu showMenu={showMenu} />
+      <ResponsiveMenu showMenu={showMenu} toggleMenu={toggleMenu} />
     </div>
   );
 };

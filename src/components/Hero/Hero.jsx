@@ -17,9 +17,9 @@ const Hero = () => {
               data-aos="slide-right"
               className="absolute -bottom-5 -right-8 px-4 py-2 rounded-xl bg-white dark:bg-gray-900 dark:text-white shadow-md"
             >
-              <p className="text-gray-500 text-sm ">⭐Projects</p>
+              <p className="text-gray-500 text-sm ">⭐Projects/Businesses</p>
               <h1 className="font-bold">
-                600+ <span className="font-normal">Done</span>
+                Over 600+ <span className="font-normal">Done</span>
               </h1>
             </div>
           </div>
@@ -31,14 +31,16 @@ const Hero = () => {
               className="text-4xl sm:text-5xl font-semibold"
               style={{ lineHeight: 1.2 }}
             >
-              Building Brands in the{" "}
-              <span className="text-primary">Digital Agency</span>
+              Welcome Our New Clients to
+              <span className="text-primary">Sheya Solutions LLC</span>
             </h1>
             <p data-aos="fade-up" data-aos-delay="300">
-              Your partner in navigating the ever-evolving landscape of digital
-              marketing. From conceptualization to execution, we craft tailored
-              solutions that drive results and elevate your brand to new
-              heights.
+              At Sheya Solutions LLS, we are on the Journey of launching a
+              Transformative Business that aims to redefine the Landscape of
+              academic and business research. Our primary focus lies in
+              providing high-quality research consultancy services tailored to
+              meet the diverse needs of our clients, which include academic
+              institutions, researchers, and businesses globally.
             </p>
             <button
               onClick={redirectToWhatsApp}
