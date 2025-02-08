@@ -57,27 +57,27 @@ const Pricing = () => {
               data-aos="fade-up"
               className="text-3xl font-semibold sm:text-3xl text-violet-950 dark:text-primary"
             >
-              Explore Our Services
+              Explore Our Packages and Pricing
             </h1>
-            <p
+            {/* <p
               data-aos="fade-up"
               className="text-gray-600 dark:text-gray-400 text-sm"
             >
               We are A Transformative Business that aims to redefine the
               Landscape of academic and business research.
-            </p>
+            </p> */}
           </div>
 
           {/* services cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4">
+          <div className=" animate-pulse grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
             {skillsData.map((skill) => (
               <div
                 key={skill.name}
                 data-aos="fade-up"
                 data-aos-delay={skill.aosDelay}
-                className="card space-y-3 sm:space-y-4 p-4"
+                className=" border-2 shadow-md rounded-lg dark:border-primary border-gray-400 w-full space-y-3 sm:space-y-4 p-4"
               >
-                <div>
+                <div className="">
                   <img
                     src={skill.icon}
                     className=" w-16 h-16 lg:w-32 rounded-full lg:h-32"
@@ -104,7 +104,7 @@ const Pricing = () => {
               onClick={redirectToWhatsApp}
               className="primary-btn font-bold"
             >
-              Get In Touch
+              Make more Enquries Here
             </button>
           </div>
         </div>

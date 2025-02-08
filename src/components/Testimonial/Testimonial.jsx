@@ -42,6 +42,14 @@ const Testimonial = () => {
       <div className="py-10">
         <div className="container">
           {/* testimonial section */}
+          <div className="pb-12 text-center space-y-3">
+            <h1
+              data-aos="fade-up"
+              className="text-3xl font-semibold sm:text-3xl text-violet-950 dark:text-primary"
+            >
+              Our Clients Feedback and Remarks
+            </h1>
+          </div>
           <div
             data-aos="fade-up"
             className="grid grid-cols-1 max-w-screen-xl mx-auto gap-6"

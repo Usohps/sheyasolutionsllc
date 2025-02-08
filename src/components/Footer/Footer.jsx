@@ -1,5 +1,6 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 // import { redirectToWhatsApp } from "../../utils/whatsapp";
 const FooterLinks = [
   {
@@ -92,7 +93,7 @@ const Footer = () => {
                 <FaLinkedin className="text-2xl hover:text-primary duration-300" />
               </a>
               <a href="https://x.com/sheyasolutions?t=n7_Z5CJx4KKxQuhbZBxZnw&s=09">
-                <FaTwitter className="text-2xl hover:text-primary duration-300" />
+                <FaXTwitter className="text-2xl hover:text-primary duration-300" />
               </a>
             </div>
           </div>
