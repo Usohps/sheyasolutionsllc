@@ -7,18 +7,18 @@ import { redirectToWhatsApp } from "../../utils/whatsapp";
 export const MenuLinks = [
   {
     id: 1,
-    name: "About",
+    name: "Services",
     link: "/#about",
   },
   {
     id: 2,
-    name: "Services",
-    link: "/#services",
+    name: "Clients Remarks",
+    link: "/#testimonial",
   },
   {
     id: 3,
-    name: "Projects",
-    link: "/#projects",
+    name: "Pricing",
+    link: "/#pricing",
   },
 ];
 const Navbar = () => {
@@ -41,8 +41,8 @@ const Navbar = () => {
             className="flex items-center gap-3"
           >
             <img src={Logo} alt="" className="w-5" />
-            <span className="text-2xl sm:text-3xl font-semibold">
-              Digital agency
+            <span className="text-2xl dark:hover:text-primary sm:text-3xl font-semibold">
+              Sheya Solutions LLC
             </span>
           </a>
           {/* Desktop view Navigation */}

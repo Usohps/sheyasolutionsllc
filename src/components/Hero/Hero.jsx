@@ -32,7 +32,7 @@ const Hero = () => {
               style={{ lineHeight: 1.2 }}
             >
               Welcome Our New Clients to
-              <span className="text-primary">Sheya Solutions LLC</span>
+              <span className="text-primary"> Sheya Solutions LLC</span>
             </h1>
             <p data-aos="fade-up" data-aos-delay="300">
               At Sheya Solutions LLS, we are on the Journey of launching a

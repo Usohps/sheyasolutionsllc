@@ -9,6 +9,7 @@ import Services from "./components/Services/Services";
 import Testimonial from "./components/Testimonial/Testimonial";
 // import BlogsComp from "./components/Blogs/BlogsComp.jsx";
 import Footer from "./components/Footer/Footer";
+import Pricing from "./components/Pricing/index.jsx";
 
 const App = () => {
   useEffect(() => {
@@ -27,6 +28,7 @@ const App = () => {
       <Hero />
       <BrandsLogo />
       <Services />
+      <Pricing />
       <Testimonial />
       {/* <BlogsComp /> */}
       <Footer />

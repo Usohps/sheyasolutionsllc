@@ -1,6 +1,6 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { redirectToWhatsApp } from "../../utils/whatsapp";
+// import { redirectToWhatsApp } from "../../utils/whatsapp";
 const FooterLinks = [
   {
     title: "About",
