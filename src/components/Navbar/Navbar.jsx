@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
-import Logo from "../../assets/website/Vector.svg";
+import Logo from "../../assets/website/logo.svg";
 import DarkMode from "./DarkMode";
 import { redirectToWhatsApp } from "../../utils/whatsapp";
 export const MenuLinks = [
@@ -40,10 +40,22 @@ const Navbar = () => {
             href="/"
             className="flex items-center gap-3"
           >
-            <img src={Logo} alt="" className="w-5" />
-            <span className="text-2xl dark:hover:text-primary sm:text-3xl font-semibold">
-              Sheya Solutions LLC
-            </span>
+            <div className="relative inline-block">
+              <img src={Logo} alt="" className="w-[50px] rounded-full" />
+              {/* <div
+                className="absolute top-full left-0 w-full h-full opacity-50 scale-y-[-1] bg-cover bg-no-repeat"
+                style={{ backgroundImage: "url('logo.svg')" }}
+              ></div> */}
+            </div>
+            <div className="relative inline-block">
+              <span className="text-2xl dark:hover:text-primary sm:text-3xl font-semibold">
+                Sheya Solutions LLC
+              </span>
+              {/* <div className=" text-2xl absolute top-full left-0 w-full h-full opacity-50 scale-y-[-1] bg-cover bg-no-repeat">
+                {" "}
+                Sheya Solutions LLC
+              </div> */}
+            </div>
           </a>
           {/* Desktop view Navigation */}
           <nav className="hidden md:block">

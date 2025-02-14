@@ -63,9 +63,8 @@ const Footer = () => {
               Sheya Solutions LLC
             </h1>
             <p className="text-sm">
-              We pride ourselves on delivering high-quality academic and
-              business research services that meet the diverse needs of our
-              global clientele.
+              We pride ourselves in Making Quality Education and Research
+              Accesible to the World at Fingertips..
             </p>
             {/* <div
               data-aos="fade-up"
