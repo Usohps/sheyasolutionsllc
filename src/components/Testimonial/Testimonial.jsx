@@ -3,22 +3,22 @@ import Slider from "react-slick";
 const testimonialData = [
   {
     id: 1,
-    name: "David Calathan - Director of Design Operations, New York",
+    name: "David Calathan - Student, New York",
     text: "I was struggling with my math coursework,but Sheya Solutions online tutoring services helped me grasp the concepts quickly. My tutor was patient, knowledgeable,and provided personalized attention. I highly recommend their services.",
   },
   {
     id: 2,
-    name: "David Calathan - Director of Design Operations, New York",
+    name: "David Osita - Student, Nigeria",
     text: "Sheya Solutions' online tutoring helped me improve my grades significantly. My tutor identified areas where I needed improvement and provided targeted support. I'm now more confident in my academic abilities, thanks to their expert guidance.",
   },
   {
     id: 3,
-    name: "Smith - Director of Operations, New York",
+    name: "Mary Smith - Researcher, Canada",
     text: "I was impressed with the research paper delivered by Sheya Solutions. The writer demonstrated in-depth knowledge of the topic, and the paper was well-structured and free of errors. I highly recommend their academic writing services",
   },
   {
     id: 4,
-    name: "Smith - Director of Operations, New York",
+    name: "Pius Love - Student, New Jersey",
     text: "Sheya Solutions' academic writing services are top-notch. They delivered my essay on time, and their support team was responsive and helpful throughout the process. I appreciate their commitment to quality and customer satisfaction",
   },
 ];

@@ -8,7 +8,7 @@
 const BrandsLogo = () => {
   return (
     <>
-      <div className="container mb-12 lg:mt-40  sm:mt-0">
+      <div className="lg:container w-full px-4 mb-12 lg:mt-40  sm:mt-0">
         <h1 className="text-center text-3xl">Our Service Beneficiaries</h1>
         <div className="py-6 md:px-32 animate-pulse flex font-extrabold flex-wrap items-center justify-evenly gap-3">
           {/* <img src={Brand1} alt="" />
