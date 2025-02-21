@@ -26,7 +26,9 @@ const App = () => {
     <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
       <Navbar />
       <Hero />
-      <BrandsLogo />
+      <div className="mt-16 lg:mt-6">
+        <BrandsLogo />
+      </div>
       <Services />
       <Pricing />
       <Testimonial />

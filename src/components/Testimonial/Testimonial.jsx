@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 
 const testimonialData = [
@@ -6,31 +5,26 @@ const testimonialData = [
     id: 1,
     name: "David Calathan - Director of Design Operations, New York",
     text: "I was struggling with my math coursework,but Sheya Solutions online tutoring services helped me grasp the concepts quickly. My tutor was patient, knowledgeable,and provided personalized attention. I highly recommend their services.",
-    // img: "https://picsum.photos/101/101",
   },
   {
     id: 2,
     name: "David Calathan - Director of Design Operations, New York",
     text: "Sheya Solutions' online tutoring helped me improve my grades significantly. My tutor identified areas where I needed improvement and provided targeted support. I'm now more confident in my academic abilities, thanks to their expert guidance.",
-    // img: "https://picsum.photos/102/102",
   },
   {
     id: 3,
     name: "Smith - Director of Operations, New York",
     text: "I was impressed with the research paper delivered by Sheya Solutions. The writer demonstrated in-depth knowledge of the topic, and the paper was well-structured and free of errors. I highly recommend their academic writing services",
-    // img: "https://picsum.photos/103/103",
   },
   {
     id: 4,
     name: "Smith - Director of Operations, New York",
     text: "Sheya Solutions' academic writing services are top-notch. They delivered my essay on time, and their support team was responsive and helpful throughout the process. I appreciate their commitment to quality and customer satisfaction",
-    // img: "https://picsum.photos/103/103",
   },
 ];
 
 const Testimonial = () => {
   var settings = {
-    // dots: true,
     arrows: false,
     infinite: true,
     speed: 200,

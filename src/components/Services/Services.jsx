@@ -1,7 +1,3 @@
-import React from "react";
-// import { FaCameraRetro } from "react-icons/fa";
-// import { GiNotebook } from "react-icons/gi";
-// import { SlNote } from "react-icons/sl";
 import { redirectToWhatsApp } from "../../utils/whatsapp";
 import Icon1 from "../../assets/brands/ssllcicon1.png";
 import Icon2 from "../../assets/brands/ssllcison2.png";
@@ -11,7 +7,6 @@ const skillsData = [
   {
     name: "High-Quality Research Services",
     icon: Icon1,
-    // icon: <FaCameraRetro className="text-4xl text-primary" />,
     link: "#",
     description:
       "We pride ourselves on delivering high-quality academic and business research services that meet the diverse needs of our global clientele. Our commitment to excellence ensures that we consistently exceed client expectations, fostering trust and loyalty.",
@@ -20,7 +15,6 @@ const skillsData = [
   {
     name: "Advanced Data Analysis Techniques",
     icon: Icon2,
-    // icon: <GiNotebook className="text-4xl text-primary" />,
     link: "#",
     description:
       " By leveraging cutting-edge data analysis techniques, we enhance the reliability and depth of our research findings. This not only differentiates us from competitors but also positions us as thought leaders in the research consultancy space.",
@@ -29,7 +23,6 @@ const skillsData = [
   {
     name: "Academic Online Tutoring",
     icon: Icon3,
-    // icon: <SlNote className="text-4xl text-primary" />,
     link: "#",
     description:
       "We offer Proven and Reliable  Academic Tutoring and Assignment  Help Opportunities for Students at all levels through the Internet Globally, We can totally guarantee you an 100% success rate in any of your Academic Engagements without any Hurdles.",
@@ -38,7 +31,6 @@ const skillsData = [
   {
     name: "Fail-proof Academic Writing Services",
     icon: Icon4,
-    // icon: <SlNote className="text-4xl text-primary" />,
     link: "#",
     description:
       " Our Geeks are one of top Percenters in Delivering Tailored and Successful Projects in Research Papers, Essays, Resumes, Business Proposals and Presentations. We put in Mind Details and the Desired Goals of our Respective Clients, ensuring the Whole Process goes incredibly well.",
@@ -55,13 +47,13 @@ const Services = () => {
           <div className="pb-12 text-center space-y-3">
             <h1
               data-aos="fade-up"
-              className="text-3xl font-semibold sm:text-3xl text-violet-950 dark:text-primary"
+              className="text-3xl font-semibold sm:text-3xl text-black dark:text-primary"
             >
               Explore Our Services
             </h1>
             <p
               data-aos="fade-up"
-              className="text-gray-600 dark:text-gray-400 text-sm"
+              className="text-gray-600 italic dark:text-gray-400 text-lg"
             >
               We are A Transformative Business that aims to redefine the
               Landscape of academic and business research.

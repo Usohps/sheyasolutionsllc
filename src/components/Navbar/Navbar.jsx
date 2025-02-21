@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
 import Logo from "../../assets/website/logo.svg";
 import DarkMode from "./DarkMode";
 import { redirectToWhatsApp } from "../../utils/whatsapp";
+
 export const MenuLinks = [
   {
     id: 1,
@@ -29,7 +30,7 @@ const Navbar = () => {
   };
   return (
     <div
-      className="relative z-10 w-full dark:bg-black dark:text-white duration-300
+      className="  fixed top-0 left-0 right-0 bg-white z-10 w-full dark:bg-black dark:text-white duration-300
     "
     >
       <div className="container py-3 md:py-2">
@@ -42,19 +43,11 @@ const Navbar = () => {
           >
             <div className="relative inline-block">
               <img src={Logo} alt="" className="w-[50px] rounded-full" />
-              {/* <div
-                className="absolute top-full left-0 w-full h-full opacity-50 scale-y-[-1] bg-cover bg-no-repeat"
-                style={{ backgroundImage: "url('logo.svg')" }}
-              ></div> */}
             </div>
             <div className="relative inline-block">
-              <span className="text-2xl dark:hover:text-primary sm:text-3xl font-semibold">
+              <span className="lg:text-2xl text-xl dark:hover:text-primary sm:text-3xl font-semibold">
                 Sheya Solutions LLC
               </span>
-              {/* <div className=" text-2xl absolute top-full left-0 w-full h-full opacity-50 scale-y-[-1] bg-cover bg-no-repeat">
-                {" "}
-                Sheya Solutions LLC
-              </div> */}
             </div>
           </a>
           {/* Desktop view Navigation */}

@@ -1,9 +1,7 @@
-import React from "react";
-// import { FaUserCircle } from "react-icons/fa";
 import { MenuLinks } from "./Navbar";
 import { redirectToWhatsApp } from "../../utils/whatsapp";
 const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
-  console.log("showMenu", showMenu);
+  // console.log("showMenu", showMenu);
   return (
     <div
       className={`${
@@ -40,7 +38,7 @@ const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
           >
             <button
               onClick={redirectToWhatsApp}
-              className="primary-btn font-bold"
+              className="w-full primary-btn font-bold"
             >
               Get In Touch
             </button>
@@ -50,7 +48,7 @@ const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
       <div className="footer">
         <h1>
           Developed with ❤ by{" "}
-          <a href="https://dilshad-ahmed.github.io/">CozyDev Group</a>{" "}
+          <a href="https://Usohps.github.io/">CozyDev Group</a>
         </h1>
       </div>
     </div>
