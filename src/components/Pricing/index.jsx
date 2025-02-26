@@ -10,37 +10,38 @@ const skillsData = [
   {
     name: "High-Quality Research Services",
     icon: Icon1,
-    // icon: <FaCameraRetro className="text-4xl text-primary" />,
     link: "#",
-    description:
-      "We pride ourselves on delivering high-quality academic and business research services that meet the diverse needs of our global clientele. Our commitment to excellence ensures that we consistently exceed client expectations, fostering trust and loyalty.",
+    description: [
+      "Discussion and Dissertation  #50,000 (Fifty thousand Naira only)",
+      "",
+    ],
     aosDelay: "0",
   },
   {
     name: "Advanced Data Analysis Techniques",
     icon: Icon2,
-    // icon: <GiNotebook className="text-4xl text-primary" />,
     link: "#",
-    description:
-      " By leveraging cutting-edge data analysis techniques, we enhance the reliability and depth of our research findings. This not only differentiates us from competitors but also positions us as thought leaders in the research consultancy space.",
+    description: ["Literature Review #30,000 (Thirty Thousand Naira only)"],
     aosDelay: "300",
   },
   {
     name: "Academic Online Tutoring",
     icon: Icon3,
-    // icon: <SlNote className="text-4xl text-primary" />,
     link: "#",
-    description:
-      "We offer Proven and Reliable  Academic Tutoring and Assignment  Help Opportunities for Students at all levels through the Internet Globally, We can totally guarantee you an 100% success rate in any of your Academic Engagements without any Hurdles.",
+    description: [
+      "Online classes for twelve (12)  weeks #500,000 (Five Hundred Thousand Naira only)",
+      "Online classes for seven (7)  weeks #300,000 (Three Hundred Thousand Naira only)",
+    ],
     aosDelay: "500",
   },
   {
     name: "Fail-proof Academic Writing Services",
     icon: Icon4,
-    // icon: <SlNote className="text-4xl text-primary" />,
     link: "#",
-    description:
-      " Our Geeks are one of top Percenters in Delivering Tailored and Successful Projects in Research Papers, Essays, Resumes, Business Proposals and Presentations. We put in Mind Details and the Desired Goals of our Respective Clients, ensuring the Whole Process goes incredibly well.",
+    description: [
+      "Essay Writting #40,000 (Fourty Thousand Naira only)",
+      "PowerPoint Presentation #70,000 (Seventy Thousand Naira only)",
+    ],
     aosDelay: "700",
   },
 ];
@@ -68,7 +69,7 @@ const Pricing = () => {
           </div>
 
           {/* services cards */}
-          <div className=" animate-pulse grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+          <div className="animate-none grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
             {skillsData.map((skill) => (
               <div
                 key={skill.name}
@@ -85,9 +86,13 @@ const Pricing = () => {
                 <h1 className="text-lg text-primary font-semibold">
                   {skill.name}
                 </h1>
-                <p className="text-gray-600 dark:text-gray-400">
-                  {skill.description}
-                </p>
+                <div className="text-gray-600 dark:text-gray-400">
+                  {skill.description.map((desc, index) => (
+                    <li className=" p-2 font-extrabold text-md" key={index}>
+                      {desc}
+                    </li>
+                  ))}
+                </div>
               </div>
             ))}
           </div>
