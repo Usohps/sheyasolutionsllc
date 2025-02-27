@@ -2,47 +2,39 @@
 // import { GiNotebook } from "react-icons/gi";
 // import { SlNote } from "react-icons/sl";
 import { redirectToWhatsApp } from "../../utils/whatsapp";
-import Icon1 from "../../assets/brands/ssllcicon1.png";
 import Icon2 from "../../assets/brands/ssllcison2.png";
 import Icon3 from "../../assets/brands/ssllcicon3.png";
 import Icon4 from "../../assets/brands/ssllcicon4.png";
 const skillsData = [
   {
-    name: "High-Quality Research Services",
-    icon: Icon1,
-    link: "#",
-    description: [
-      "Discussion and Dissertation  #50,000 (Fifty thousand Naira only)",
-      "",
-    ],
-    aosDelay: "0",
-  },
-  {
     name: "Advanced Data Analysis Techniques",
     icon: Icon2,
     link: "#",
-    description: ["Literature Review #30,000 (Thirty Thousand Naira only)"],
-    aosDelay: "300",
+    description: [
+      "Literature Review NGN30,000 (Thirty Thousand Naira only) $20.00 - $30.00 equivalent per page.",
+      "Discussion and Dissertation  NGN50,000 (Fifty thousand Naira only)",
+    ],
+    aosDelay: "0",
   },
   {
     name: "Academic Online Tutoring",
     icon: Icon3,
     link: "#",
     description: [
-      "Online classes for twelve (12)  weeks #500,000 (Five Hundred Thousand Naira only)",
-      "Online classes for seven (7)  weeks #300,000 (Three Hundred Thousand Naira only)",
+      "Online classes for twelve (12)  weeks NGN500,000 (Five Hundred Thousand Naira only)",
+      "Online classes for seven (7)  weeks NGN300,000 (Three Hundred Thousand Naira only)",
     ],
-    aosDelay: "500",
+    aosDelay: "300",
   },
   {
     name: "Fail-proof Academic Writing Services",
     icon: Icon4,
     link: "#",
     description: [
-      "Essay Writting #40,000 (Fourty Thousand Naira only)",
-      "PowerPoint Presentation #70,000 (Seventy Thousand Naira only)",
+      "Essay Writting NGN40,000 (Fourty Thousand Naira only) $20.00 - $30.00 equivalent per page.",
+      "PowerPoint Presentation NGN70,000 (Seventy Thousand Naira only) $20.00 - $30.00 equivalent per page.",
     ],
-    aosDelay: "700",
+    aosDelay: "500",
   },
 ];
 const Pricing = () => {
@@ -59,17 +51,19 @@ const Pricing = () => {
             >
               Explore Our Packages and Pricing
             </h1>
-            {/* <p
+            <p
               data-aos="fade-up"
-              className="text-gray-600 dark:text-gray-400 text-sm"
+              className="text-gray-600 lg:w-1/2 m-auto dark:text-gray-400 text-md font-semibold"
             >
-              We are A Transformative Business that aims to redefine the
-              Landscape of academic and business research.
-            </p> */}
+              We offer 30 minutes of{" "}
+              <span className="text-green-500">FREE</span> consultation for any
+              package of your choice, kindly click the button below for to book
+              a session.
+            </p>
           </div>
 
           {/* services cards */}
-          <div className="animate-none grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+          <div className="animate-none grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
             {skillsData.map((skill) => (
               <div
                 key={skill.name}
@@ -108,7 +102,7 @@ const Pricing = () => {
               onClick={redirectToWhatsApp}
               className="primary-btn font-bold"
             >
-              Make more Enquries Here
+              For more Enquires
             </button>
           </div>
         </div>

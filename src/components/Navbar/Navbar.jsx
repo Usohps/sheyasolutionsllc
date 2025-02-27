@@ -21,6 +21,11 @@ export const MenuLinks = [
     name: "Pricing",
     link: "/#pricing",
   },
+  {
+    id: 4,
+    name: "Blogs",
+    link: "/#blog",
+  },
 ];
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -38,7 +43,7 @@ const Navbar = () => {
           {/* Logo section */}
           <a
             // target="_blank"
-            href="/"
+            href="/#home"
             className="flex items-center gap-3"
           >
             <div className="relative inline-block">
