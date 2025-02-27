@@ -11,8 +11,8 @@ const skillsData = [
     icon: Icon2,
     link: "#",
     description: [
-      "Literature Review NGN30,000 (Thirty Thousand Naira only) $20.00 - $30.00 equivalent per page.",
-      "Discussion and Dissertation  NGN50,000 (Fifty thousand Naira only)",
+      "Literature Review NGN30,000 (Thirty Thousand Naira only) $20.00 equivalent per page.",
+      "Discussion and Dissertation  NGN50,000 (Fifty thousand Naira only) $40.00 equivalent",
     ],
     aosDelay: "0",
   },
@@ -21,8 +21,8 @@ const skillsData = [
     icon: Icon3,
     link: "#",
     description: [
-      "Online classes for twelve (12)  weeks NGN500,000 (Five Hundred Thousand Naira only)",
-      "Online classes for seven (7)  weeks NGN300,000 (Three Hundred Thousand Naira only)",
+      "Online classes for twelve (12)  weeks NGN500,000 (Five Hundred Thousand Naira only) $600.00 equivalent .",
+      "Online classes for seven (7)  weeks NGN300,000 (Three Hundred Thousand Naira only) $450.00 equivalent.",
     ],
     aosDelay: "300",
   },
@@ -31,8 +31,8 @@ const skillsData = [
     icon: Icon4,
     link: "#",
     description: [
-      "Essay Writting NGN40,000 (Fourty Thousand Naira only) $20.00 - $30.00 equivalent per page.",
-      "PowerPoint Presentation NGN70,000 (Seventy Thousand Naira only) $20.00 - $30.00 equivalent per page.",
+      "Essay Writting NGN40,000 (Fourty Thousand Naira only) $30.00 equivalent per page.",
+      "PowerPoint Presentation NGN70,000 (Seventy Thousand Naira only) $50.00 equivalent.",
     ],
     aosDelay: "500",
   },
