@@ -11,7 +11,6 @@ const skillsData = [
     icon: Icon2,
     link: "#",
     description: [
-      "Literature Review NGN30,000 (Thirty Thousand Naira only) $20.00 equivalent per page.",
       "Discussion and Dissertation  NGN50,000 (Fifty thousand Naira only) $40.00 equivalent",
     ],
     aosDelay: "0",
@@ -31,8 +30,9 @@ const skillsData = [
     icon: Icon4,
     link: "#",
     description: [
-      "Essay Writting NGN40,000 (Fourty Thousand Naira only) $30.00 equivalent per page.",
+      "Essay Writing NGN40,000 (Fourty Thousand Naira only) $30.00 equivalent per page.",
       "PowerPoint Presentation NGN70,000 (Seventy Thousand Naira only) $50.00 equivalent.",
+      "Literature Review NGN30,000 (Thirty Thousand Naira only) $20.00 equivalent per page.",
     ],
     aosDelay: "500",
   },
@@ -57,8 +57,8 @@ const Pricing = () => {
             >
               We offer 30 minutes of{" "}
               <span className="text-green-500">FREE</span> consultation for any
-              package of your choice, kindly click the button below for to book
-              a session.
+              package of your choice, kindly click the button below to book a
+              session.
             </p>
           </div>
 
