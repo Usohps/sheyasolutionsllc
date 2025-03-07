@@ -7,11 +7,11 @@ import Img3 from "../../assets/blog/blog3.png";
 const BlogsData = [
   {
     id: 1,
-    image: Img1,
-    title: "Realtime analytics",
+    image: Img3,
+    title: "LEARNING FROM HOME; A BETTER OPTION?",
     description:
-      "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible.",
-    author: "Someone",
+      "Learning from home, also known as distance learning or homeschooling, has an aged and evolving history. Here are some key Events.",
+    author: "Sheya Solutions LLC",
     date: "April 22, 2022",
   },
   {
@@ -25,7 +25,7 @@ const BlogsData = [
   },
   {
     id: 3,
-    image: Img3,
+    image: Img1,
     title: "Realtime analytics",
     description:
       "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible. ",
@@ -50,7 +50,13 @@ const BlogsComp = () => {
           </div>
           <div className="text-center">
             <button className="primary-btn font-extrabold">
-              View All Posts
+              <a
+                href="https://medium.com/@sheyasolutionsllc"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View All Posts
+              </a>
             </button>
           </div>
         </section>
