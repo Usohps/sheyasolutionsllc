@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
-import Logo from "../../assets/website/logo.svg";
+import Logo from "/logo.svg";
 import DarkMode from "./DarkMode";
 import { redirectToWhatsApp } from "../../utils/whatsapp";
 

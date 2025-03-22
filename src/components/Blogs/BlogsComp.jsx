@@ -8,6 +8,7 @@ const BlogsData = [
   {
     id: 1,
     image: Img3,
+    link:"https://medium.com/@sheyasolutionsllc",
     title: "LEARNING FROM HOME; A BETTER OPTION?",
     description:
       "Learning from home, also known as distance learning or homeschooling, has an aged and evolving history. Here are some key Events.",
@@ -17,6 +18,7 @@ const BlogsData = [
   {
     id: 2,
     image: Img2,
+    link:"https://medium.com/@sheyasolutionsllc",
     title: "Realtime analytics",
     description:
       "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible. ",
@@ -26,6 +28,7 @@ const BlogsData = [
   {
     id: 3,
     image: Img1,
+    link:"https://medium.com/@sheyasolutionsllc",
     title: "Realtime analytics",
     description:
       "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible. ",
