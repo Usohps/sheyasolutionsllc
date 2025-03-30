@@ -8,7 +8,7 @@ const BlogsData = [
   {
     id: 1,
     image: Img3,
-    link:"https://medium.com/@sheyasolutionsllc",
+    link:"https://medium.com/@sheyasolutionsllc/learning-from-home-a-better-option-b8cfe0537055",
     title: "LEARNING FROM HOME; A BETTER OPTION?",
     description:
       "Learning from home, also known as distance learning or homeschooling, has an aged and evolving history. Here are some key Events.",
@@ -18,21 +18,21 @@ const BlogsData = [
   {
     id: 2,
     image: Img2,
-    link:"https://medium.com/@sheyasolutionsllc",
-    title: "Realtime analytics",
+    link:"https://medium.com/@sheyasolutionsllc/scaling-through-academic-journey-successfully-49aaf2a43217",
+    title: "SCALING THROUGH ACADEMIC JOURNEY SUCCESSFULLY",
     description:
-      "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible. ",
-    author: "Someone",
+      "Undoubtedly, every student’s dream is to ascend to a point of academic ease and excellence but a wish is never enough",
+    author: "Sheya Solutions LLC",
     date: "April 22, 2022",
   },
   {
     id: 3,
     image: Img1,
-    link:"https://medium.com/@sheyasolutionsllc",
-    title: "Realtime analytics",
+    link:"https://medium.com/@sheyasolutionsllc/unlocking-the-key-to-career-growth-5560f8ce5c9b",
+    title: "UNLOCKING THE KEY TO YOUR CAREER GROWTH",
     description:
-      "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible. ",
-    author: "Someone",
+      "After Investing a whole of resources and time into your Education, one of the Questions that lingers on your mind is",
+    author: "Sheya Solutions LLC",
     date: "April 22, 2022",
   },
 ];
